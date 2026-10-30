@@ -1,3 +1,5 @@
+# generate sample data for erp and fba csvs 
+
 import pandas as pd
 import random
 
