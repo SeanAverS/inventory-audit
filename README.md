@@ -1,1 +1,1 @@
-A script to handle discrepancies between warehouse and shipper (amazon)
+A script to display stock discrepancies between the warehouse and shipper while listing its financial impact 
