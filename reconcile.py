@@ -4,6 +4,7 @@ import pandas as pd
 import openpyxl
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
+from openpyxl.chart import BarChart, Reference
 
 def run_reconciliation():
     df_erp = pd.read_csv("erp_inventory.csv")
@@ -164,7 +165,35 @@ def run_reconciliation():
     cell_fin.number_format = '$#,##0.00'
     cell_fin.border = summary_border
 
-    for ws in [ws_summary, ws_detailed]:
+   # --- BUILD VISUAL ANALYSIS CHART TAB ---
+    ws_chart = wb.create_sheet(title="Visual Analysis")
+    ws_chart.views.sheetView[0].showGridLines = True
+
+    ws_chart["A2"] = "Visual of Financial Impact by SKU"
+    ws_chart["A2"].font = title_font
+
+    max_audit_row = ws_detailed.max_row - 1 
+    
+    data = Reference(ws_detailed, min_col=8, min_row=2, max_row=max_audit_row)
+    cats = Reference(ws_detailed, min_col=2, min_row=3, max_row=max_audit_row)
+
+    chart = BarChart()
+    chart.type = "col"
+    chart.style = 10
+    chart.title = "Financial Impact ($) per SKU"
+    chart.y_axis.title = "Financial Impact ($)"
+    chart.x_axis.title = "Products"
+    chart.legend = None
+
+    chart.add_data(data, titles_from_data=True)
+    chart.set_categories(cats)
+
+    ws_chart.add_chart(chart, "A5")
+    chart.width = 32  
+    chart.height = 16 
+
+    # --- AUTO-FIT COLUMN WIDTHS FOR ALL TABS ---
+    for ws in [ws_summary, ws_detailed, ws_chart]:
         for col in ws.columns:
             max_len = 0
             col_letter = get_column_letter(col[0].column)
@@ -175,7 +204,7 @@ def run_reconciliation():
 
     output_filename = "Reconciliation_Report.xlsx"
     wb.save(output_filename)
-    print(f"Successfully generated professional report: {output_filename}")
+    print(f"Successfully generated {output_filename}")
 
 if __name__ == "__main__":
     run_reconciliation()
