@@ -1,4 +1,4 @@
-# report financial discrepancies between erp and fba stocks, display them on spreadsheet
+# report financial discrepancies between erp and fba stocks, display them on spreadsheets and a visual chart (by SKU)
 
 import pandas as pd
 import openpyxl
