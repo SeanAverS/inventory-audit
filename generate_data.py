@@ -1,13 +1,13 @@
 # generate sample data for erp and fba csvs 
 
-import pandas as pd
 import random
+import pandas as pd
 
 # sample data count
 random.seed(42)
 
 def generate_inventory_data():
-    products = [
+    base_products = [
         ("SKU-1001", "Bamboo Storage Box", "Home & Kitchen", 14.50),
         ("SKU-1002", "Stainless Steel Water Bottle 32oz", "Home & Kitchen", 8.25),
         ("SKU-1003", "Organic Cotton T-Shirt (Black/L)", "Apparel", 6.00),
@@ -21,6 +21,19 @@ def generate_inventory_data():
         ("SKU-1011", "Digital Kitchen Food Scale", "Home & Kitchen", 6.50),
         ("SKU-1012", "Blue Light Blocking Glasses", "Electronics Accessories", 4.75),
     ]
+
+    # Expand SKUs to 50 with generic variants or just use base list
+    categories = ["Home & Kitchen", "Apparel", "Electronics Accessories", "Wellness"]
+    nouns = ["Organizer", "Cover", "Kit", "Adapter", "Holder", "Pouch", "Mat", "Cleaner", "Stand", "Case"]
+    
+    products = list(base_products)
+    
+    for i in range(len(base_products) + 1, 51):
+        sku = f"SKU-{1000 + i}"
+        category = random.choice(categories)
+        name = f"Pro {random.choice(nouns)} Model {i}"
+        unit_cost = round(random.uniform(4.00, 45.00), 2)
+        products.append((sku, name, category, unit_cost))
 
     erp_rows = []
     fba_rows = []
@@ -63,7 +76,7 @@ def generate_inventory_data():
     df_erp.to_csv("erp_inventory.csv", index=False)
     df_fba.to_csv("fba_inventory.csv", index=False)
     
-    print("Successfully generated sample datasets: erp_inventory.csv and fba_inventory.csv")
+    print(f"Successfully generated sample datasets with {len(products)} items: erp_inventory.csv and fba_inventory.csv")
 
 if __name__ == "__main__":
     generate_inventory_data()
