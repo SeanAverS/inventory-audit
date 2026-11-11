@@ -22,13 +22,13 @@ def generate_inventory_data():
         ("SKU-1012", "Blue Light Blocking Glasses", "Electronics Accessories", 4.75),
     ]
 
-    # Expand SKUs to 50 with generic variants or just use base list
+    # Expand SKUs to 200 with generic variants
     categories = ["Home & Kitchen", "Apparel", "Electronics Accessories", "Wellness"]
     nouns = ["Organizer", "Cover", "Kit", "Adapter", "Holder", "Pouch", "Mat", "Cleaner", "Stand", "Case"]
     
     products = list(base_products)
     
-    for i in range(len(base_products) + 1, 51):
+    for i in range(len(base_products) + 1, 201):
         sku = f"SKU-{1000 + i}"
         category = random.choice(categories)
         name = f"Pro {random.choice(nouns)} Model {i}"

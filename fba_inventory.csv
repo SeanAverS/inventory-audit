@@ -1,9 +1,162 @@
 SKU,Product Name,Category,FBA_Quantity,Unit_Cost
-SKU-1001,Bamboo Storage Box,Home & Kitchen,377,14.5
-SKU-1002,Stainless Steel Water Bottle 32oz,Home & Kitchen,60,8.25
-SKU-1003,Organic Cotton T-Shirt (Black/L),Apparel,164,6.0
-SKU-1004,Ergonomic Laptop Stand,Electronics Accessories,427,22.0
-SKU-1007,USB-C Fast Charging Cable 6ft,Electronics Accessories,266,3.2
-SKU-1008,Insulated Lunch Bag,Home & Kitchen,65,7.8
-SKU-1009,Minimalist Canvas Backpack,Apparel,161,18.5
+SKU-1001,Bamboo Storage Box,Home & Kitchen,290,14.5
+SKU-1003,Organic Cotton T-Shirt (Black/L),Apparel,360,6.0
+SKU-1004,Ergonomic Laptop Stand,Electronics Accessories,448,22.0
+SKU-1005,Resistance Workout Bands Set,Wellness,209,5.75
+SKU-1006,Aromatherapy Essential Oil Diffuser,Home & Kitchen,346,11.5
+SKU-1008,Insulated Lunch Bag,Home & Kitchen,426,7.8
+SKU-1009,Minimalist Canvas Backpack,Apparel,416,18.5
+SKU-1011,Digital Kitchen Food Scale,Home & Kitchen,403,6.5
+SKU-1012,Blue Light Blocking Glasses,Electronics Accessories,99,4.75
+SKU-1013,Pro Organizer Model 13,Home & Kitchen,339,34.4
+SKU-1015,Pro Stand Model 15,Home & Kitchen,266,7.56
+SKU-1016,Pro Organizer Model 16,Wellness,306,5.22
+SKU-1017,Pro Adapter Model 17,Apparel,240,24.72
+SKU-1018,Pro Stand Model 18,Home & Kitchen,275,12.15
+SKU-1019,Pro Adapter Model 19,Wellness,412,22.42
+SKU-1020,Pro Organizer Model 20,Electronics Accessories,272,35.11
+SKU-1022,Pro Adapter Model 22,Apparel,387,43.25
+SKU-1023,Pro Cover Model 23,Electronics Accessories,306,7.8
+SKU-1024,Pro Pouch Model 24,Home & Kitchen,215,38.75
+SKU-1025,Pro Organizer Model 25,Electronics Accessories,98,33.92
+SKU-1026,Pro Mat Model 26,Home & Kitchen,204,7.23
+SKU-1027,Pro Case Model 27,Electronics Accessories,222,40.3
+SKU-1028,Pro Case Model 28,Electronics Accessories,301,11.88
+SKU-1029,Pro Organizer Model 29,Home & Kitchen,299,31.11
+SKU-1030,Pro Cover Model 30,Electronics Accessories,233,39.07
+SKU-1032,Pro Kit Model 32,Electronics Accessories,406,19.18
+SKU-1033,Pro Holder Model 33,Apparel,314,32.77
+SKU-1034,Pro Case Model 34,Home & Kitchen,93,30.03
+SKU-1035,Pro Kit Model 35,Apparel,448,22.95
+SKU-1036,Pro Stand Model 36,Electronics Accessories,334,13.0
+SKU-1037,Pro Organizer Model 37,Electronics Accessories,433,13.39
+SKU-1038,Pro Pouch Model 38,Home & Kitchen,279,20.45
+SKU-1039,Pro Adapter Model 39,Home & Kitchen,95,41.44
+SKU-1040,Pro Adapter Model 40,Electronics Accessories,257,30.87
+SKU-1042,Pro Adapter Model 42,Apparel,256,34.54
+SKU-1044,Pro Pouch Model 44,Wellness,223,12.99
+SKU-1045,Pro Stand Model 45,Apparel,190,24.23
+SKU-1046,Pro Cover Model 46,Home & Kitchen,168,10.27
+SKU-1047,Pro Mat Model 47,Apparel,419,28.45
+SKU-1048,Pro Mat Model 48,Wellness,211,28.43
+SKU-1050,Pro Cover Model 50,Home & Kitchen,440,31.95
+SKU-1051,Pro Pouch Model 51,Electronics Accessories,148,8.57
+SKU-1052,Pro Kit Model 52,Wellness,446,22.6
+SKU-1055,Pro Kit Model 55,Apparel,352,19.33
+SKU-1056,Pro Stand Model 56,Apparel,147,43.09
+SKU-1057,Pro Case Model 57,Home & Kitchen,234,17.29
+SKU-1058,Pro Cover Model 58,Home & Kitchen,204,42.09
+SKU-1060,Pro Cover Model 60,Home & Kitchen,111,34.01
+SKU-1062,Pro Cleaner Model 62,Apparel,199,42.82
+SKU-1063,Pro Holder Model 63,Apparel,351,25.63
+SKU-1065,Pro Holder Model 65,Apparel,225,20.36
+SKU-1066,Pro Cleaner Model 66,Electronics Accessories,273,40.88
+SKU-1067,Pro Cover Model 67,Wellness,80,14.16
+SKU-1068,Pro Pouch Model 68,Home & Kitchen,108,4.86
+SKU-1069,Pro Case Model 69,Apparel,230,13.03
+SKU-1070,Pro Organizer Model 70,Home & Kitchen,345,13.39
+SKU-1071,Pro Pouch Model 71,Home & Kitchen,127,6.91
+SKU-1072,Pro Holder Model 72,Apparel,335,31.43
+SKU-1073,Pro Stand Model 73,Apparel,177,9.42
+SKU-1074,Pro Adapter Model 74,Wellness,320,36.17
+SKU-1076,Pro Pouch Model 76,Wellness,274,21.37
+SKU-1078,Pro Organizer Model 78,Home & Kitchen,266,20.51
+SKU-1079,Pro Cover Model 79,Electronics Accessories,362,14.19
+SKU-1080,Pro Stand Model 80,Apparel,440,22.39
+SKU-1081,Pro Kit Model 81,Wellness,370,15.42
+SKU-1082,Pro Cover Model 82,Apparel,185,22.17
+SKU-1083,Pro Organizer Model 83,Home & Kitchen,130,30.74
+SKU-1085,Pro Kit Model 85,Apparel,88,20.66
+SKU-1086,Pro Adapter Model 86,Wellness,81,39.45
+SKU-1088,Pro Holder Model 88,Wellness,287,41.99
+SKU-1089,Pro Holder Model 89,Wellness,170,21.34
+SKU-1090,Pro Kit Model 90,Wellness,384,11.79
+SKU-1091,Pro Organizer Model 91,Apparel,401,27.75
+SKU-1093,Pro Stand Model 93,Wellness,388,41.69
+SKU-1094,Pro Organizer Model 94,Apparel,267,43.39
+SKU-1095,Pro Kit Model 95,Home & Kitchen,328,6.81
+SKU-1096,Pro Adapter Model 96,Home & Kitchen,381,20.55
+SKU-1097,Pro Case Model 97,Apparel,186,28.38
+SKU-1098,Pro Mat Model 98,Home & Kitchen,86,30.95
+SKU-1099,Pro Holder Model 99,Electronics Accessories,136,12.37
+SKU-1100,Pro Adapter Model 100,Electronics Accessories,274,14.89
+SKU-1101,Pro Holder Model 101,Apparel,293,22.75
+SKU-1103,Pro Cover Model 103,Home & Kitchen,356,26.04
+SKU-1105,Pro Adapter Model 105,Home & Kitchen,88,19.15
+SKU-1106,Pro Cleaner Model 106,Apparel,356,38.18
+SKU-1107,Pro Case Model 107,Electronics Accessories,96,44.34
+SKU-1109,Pro Kit Model 109,Home & Kitchen,350,14.84
+SKU-1110,Pro Stand Model 110,Home & Kitchen,438,10.37
+SKU-1111,Pro Case Model 111,Electronics Accessories,440,12.64
+SKU-1113,Pro Stand Model 113,Electronics Accessories,401,24.03
+SKU-1115,Pro Organizer Model 115,Electronics Accessories,248,4.15
+SKU-1116,Pro Holder Model 116,Apparel,294,10.62
+SKU-1117,Pro Stand Model 117,Wellness,217,32.93
+SKU-1118,Pro Cover Model 118,Home & Kitchen,136,7.08
+SKU-1119,Pro Stand Model 119,Apparel,423,5.48
+SKU-1120,Pro Case Model 120,Electronics Accessories,364,26.65
+SKU-1121,Pro Kit Model 121,Wellness,282,5.71
+SKU-1122,Pro Organizer Model 122,Electronics Accessories,213,40.86
+SKU-1123,Pro Adapter Model 123,Apparel,84,31.34
+SKU-1125,Pro Case Model 125,Wellness,261,34.73
+SKU-1128,Pro Mat Model 128,Electronics Accessories,467,36.89
+SKU-1129,Pro Holder Model 129,Apparel,439,10.53
+SKU-1130,Pro Mat Model 130,Home & Kitchen,152,39.76
+SKU-1131,Pro Adapter Model 131,Wellness,227,12.18
+SKU-1132,Pro Pouch Model 132,Wellness,112,16.51
+SKU-1134,Pro Mat Model 134,Apparel,172,17.46
+SKU-1137,Pro Cover Model 137,Home & Kitchen,258,39.96
+SKU-1138,Pro Kit Model 138,Electronics Accessories,165,27.8
+SKU-1139,Pro Organizer Model 139,Electronics Accessories,286,8.44
+SKU-1140,Pro Pouch Model 140,Wellness,381,33.87
+SKU-1141,Pro Mat Model 141,Electronics Accessories,307,28.85
+SKU-1142,Pro Mat Model 142,Home & Kitchen,292,40.88
+SKU-1143,Pro Holder Model 143,Apparel,159,5.82
+SKU-1144,Pro Organizer Model 144,Wellness,246,25.32
+SKU-1146,Pro Case Model 146,Electronics Accessories,432,16.87
+SKU-1147,Pro Holder Model 147,Home & Kitchen,89,24.79
+SKU-1149,Pro Stand Model 149,Electronics Accessories,186,9.22
+SKU-1150,Pro Mat Model 150,Wellness,198,31.77
+SKU-1151,Pro Case Model 151,Apparel,156,27.33
+SKU-1152,Pro Stand Model 152,Wellness,230,38.18
+SKU-1153,Pro Holder Model 153,Electronics Accessories,281,12.62
+SKU-1154,Pro Cleaner Model 154,Electronics Accessories,407,22.11
+SKU-1155,Pro Stand Model 155,Apparel,327,23.4
+SKU-1156,Pro Cover Model 156,Apparel,422,15.64
+SKU-1157,Pro Cover Model 157,Electronics Accessories,242,37.56
+SKU-1158,Pro Holder Model 158,Apparel,247,13.21
+SKU-1159,Pro Kit Model 159,Apparel,303,5.0
+SKU-1161,Pro Cleaner Model 161,Home & Kitchen,349,20.99
+SKU-1162,Pro Mat Model 162,Apparel,275,24.27
+SKU-1163,Pro Kit Model 163,Apparel,294,30.9
+SKU-1164,Pro Cover Model 164,Home & Kitchen,419,35.92
+SKU-1165,Pro Kit Model 165,Apparel,259,36.97
+SKU-1166,Pro Organizer Model 166,Wellness,106,26.85
+SKU-1168,Pro Stand Model 168,Wellness,379,44.5
+SKU-1170,Pro Stand Model 170,Wellness,248,22.28
+SKU-1171,Pro Cleaner Model 171,Apparel,327,22.45
+SKU-1172,Pro Holder Model 172,Apparel,366,35.4
+SKU-1173,Pro Adapter Model 173,Wellness,168,15.26
+SKU-1174,Pro Holder Model 174,Home & Kitchen,432,13.61
+SKU-1175,Pro Pouch Model 175,Electronics Accessories,272,40.61
+SKU-1176,Pro Kit Model 176,Home & Kitchen,439,10.18
+SKU-1177,Pro Kit Model 177,Wellness,277,32.96
+SKU-1178,Pro Mat Model 178,Home & Kitchen,402,20.71
+SKU-1179,Pro Mat Model 179,Wellness,70,6.55
+SKU-1180,Pro Mat Model 180,Wellness,202,41.1
+SKU-1181,Pro Case Model 181,Home & Kitchen,270,19.6
+SKU-1184,Pro Cleaner Model 184,Apparel,399,13.0
+SKU-1185,Pro Cleaner Model 185,Wellness,137,5.19
+SKU-1188,Pro Mat Model 188,Home & Kitchen,399,28.27
+SKU-1190,Pro Cleaner Model 190,Apparel,123,11.45
+SKU-1191,Pro Mat Model 191,Electronics Accessories,290,17.42
+SKU-1192,Pro Pouch Model 192,Wellness,180,17.84
+SKU-1193,Pro Holder Model 193,Wellness,286,34.83
+SKU-1194,Pro Holder Model 194,Wellness,105,38.23
+SKU-1195,Pro Organizer Model 195,Wellness,354,34.71
+SKU-1196,Pro Pouch Model 196,Home & Kitchen,407,13.19
+SKU-1197,Pro Organizer Model 197,Home & Kitchen,204,34.92
+SKU-1198,Pro Adapter Model 198,Apparel,221,38.41
+SKU-1199,Pro Adapter Model 199,Apparel,189,9.18
+SKU-1200,Pro Case Model 200,Home & Kitchen,346,42.86
 SKU-9999,Mystery Promo Bundle (Discontinued),Wellness,45,5.0
